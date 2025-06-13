@@ -19,7 +19,6 @@ A simple and fun **click-based mini game** built with HTML, CSS, and JavaScript.
 ## 📷 Preview
 
 ![Game Preview](https://raw.githubusercontent.com/ImNotDanish05/Catch-The-Emoji/main/images/Preview.PNG)
-*(Add screenshot here after running)*
 
 ---
 

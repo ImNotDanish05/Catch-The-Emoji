@@ -1,0 +1,55 @@
+/* Mengatur font global */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom animations for the game */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+}
+@keyframes fadeOut {
+    from { opacity: 1; transform: scale(1); }
+    to { opacity: 0; transform: scale(0.5); }
+}
+@keyframes popOnClick {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+/* Menerapkan animasi pada emoji */
+.emoji.fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+.emoji.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+.emoji.pop-on-click {
+    animation: popOnClick 0.2s ease-out forwards;
+}
+
+/* Animasi bounce untuk judul */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-5%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+.animate-bounce-custom {
+    animation: bounce 1s infinite;
+}
+
+/* Tinggi responsif untuk area permainan */
+#game-area {
+    height: 80vh; /* Default untuk layar kecil */
+}
+@media (min-width: 768px) { /* breakpoint medium */
+    #game-area {
+        height: 600px; /* Tinggi tetap untuk layar lebih besar */
+    }
+}

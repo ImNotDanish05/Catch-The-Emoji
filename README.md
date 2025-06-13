@@ -20,14 +20,6 @@ A simple and fun **click-based mini game** built with HTML, CSS, and JavaScript.
 
 ![Game Preview](https://raw.githubusercontent.com/ImNotDanish05/Catch-The-Emoji/main/images/Preview.PNG)
 
----
-
-## 🚀 How to Play
-
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
-3. Click the emoji before it disappears.
-4. Get as much score as you can!
 
 ---
 
@@ -63,8 +55,10 @@ This project:
 
 ---
 
+[🎮 Play the Game Now!](https://imnotdanish05.github.io/Catch-The-Emoji/)
+
 ## 💌 Created by
 
-Made with 💖 by Danish Senpai & Aria ✨  
+Made with 💖 by Danish & Aria ✨  
 *Keep coding, keep vibin’~!*
 
